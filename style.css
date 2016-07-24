@@ -1,68 +1,6 @@
 /*the logo font is museo 700, font color is #FEB914 and the logo background color is #4C4442*/
 
-.Museo-700 { 
+body {
   font-family: Museo-700;
-  font-weight: normal;
-  font-style: normal;
-}
-
-#nav {
-  width: 100%;
-  position: fixed;
-}
-
-#nav ul{
-  /*line-height: 100%;*/
-  color: #FEB914;
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  background-color: #4C4442;
-  /*height: 80px;*/
-}
-
-#nav li{
-  line-height: 100%;
-  
-  /*float: right;*/
-}
-
-#nav li a{
-  height: 100px;
-  display: block;
-  color: #FEB914;
-  text-align: center;
-  vertical-align: middle;
-  padding: 14px;
-  text-decoration: none;
-}
-
-#nav li a:hover:not(.active) {
-  background-color: #111;
-}
-
-#nav li .active {
-  background-color: #4CAF50;
-}
-
-html, body {
-  margin:0;
-  padding:0;
-  height:100%;
-  font-family: "Courier New";
-}
-
-#page1 {
-  float: left;
-  width: 100%;
-  background-repeat: no-repeat;
-  /*background-attachment: fixed; this fixes the image even when scrolling */
-}
-
-#page1-img {
   background-image: url("background1.jpg");
-  background-size: cover;
-  width: 100%;
-  min-height:100%;
-  /*position:relative;*/
 }
