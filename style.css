@@ -2,5 +2,29 @@
 
 body {
   font-family: Museo-700;
-  background-image: url("background1.jpg");
+  /*background-image: url("background1.jpg");*/
+}
+
+.intro {
+  background: url("background1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro-body {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.brand-heading {
+	font-weight: 700;
+}
+
+@media screen and (min-width: 768px){
+	.intro .intro-body .brand-heading {
+	    font-size: 80px;
+	}
 }
