@@ -1,0 +1,299 @@
+/*the logo font is museo 700, font color is #FEB914 and the logo background color is #4C4442*/
+
+html {
+	height: 100%;
+}
+
+body {
+ 	background-color: #fff;
+	color: #777;
+	font-family: Museo-700;
+	height: 100%;
+}
+
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color:white;
+	font-size: 45px;
+}
+
+h2 {
+	font-weight: 300;
+	color: white;
+	font-size: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 24px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 15px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	color: #FEB914;
+}
+
+strong {
+	font-weight: bold;
+}
+
+small {
+	font-size: 13px;
+	color: #777;
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper-main {
+	margin: 0 auto;
+	width: 100%;
+	position: fixed;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#home {
+	height: 100%;
+	background-image: url('../img/helmet.jpg');
+	background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+/* HEADER ----------- */
+
+header {
+	height: 190px;
+	background-color: rgb(76, 68, 66, 0.5);
+
+}
+
+header h1 {
+	float: left;
+	margin-top: 32px;
+	margin-left: 32px;
+}
+
+header h1 .color {
+	color: #02b8dd;
+}
+
+header nav {
+	float: right;
+	margin-right: 28px;
+}
+
+header nav ul li {
+	float: left;
+	display: inline-block;
+	margin-top: 90px;
+}
+
+header nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	margin-right: 20px;
+}
+
+
+.slogan-text {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+@media (max-width: 750px){
+	header nav ul li {
+		display: none;
+	}
+	.wrapper-main {
+		position: relative;
+	}
+}
+
+/* CONTACT PAGE -------- */
+
+#contato {
+	height: 100%;
+	background-color: black;
+	background-image: url('../img/kids.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+#contato h3 {
+	padding-top: 200px;
+}
+
+#contato .make-opacity {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#contato ul li {
+	display: inline-block;
+}
+
+#contato ul {
+	text-align: center;
+}
+
+/* DONUTS ------------- */
+
+#donuts ul {
+	width: 100%;
+	height:100%;
+	text-align: center;
+	color: white;
+}
+
+#donuts ul li {
+	width: 33.33%;
+	height: 180px;
+	padding-top: 140px;
+	float: left;
+}
+
+#donuts ul li h4 {
+	color: white;
+}
+
+#donuts ul li.donut-1 {
+	background: url('../img/donuts1.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#donuts ul li.donut-2 {
+	background: url('../img/donuts2.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#donuts ul li.donut-3 {
+	background: url('../img/donuts3.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#donuts ul li.donut-4 {
+	background: url('../img/consumer.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#donuts ul li.donut-5 {
+	background: url('../img/coffee.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#donuts ul li.donut-6 {
+	background: url('../img/butantan.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+@media (max-width: 800px){
+	#donuts ul li{
+		clear: left;
+		width: 100%;
+		/*margin: 10px 0;*/
+	}
+
+	#donuts ul{
+		display: table;
+	}
+}
+
+/* FINAL PAGE -------- */
+
+#final-page {
+	height: 100%;
+	background-color: black;
+	background-image: url('../img/final-image.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+#final-page .make-opacity {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#final-page h4 {
+	color: #FEB914;
+/*	float: right;
+	padding-top:450px;
+	margin-right: 40px;*/
+}
+
+#final-page .final-text {
+	float: right;
+	padding-top:450px;
+	margin-right: 40px;
+}
+
+#final-page .final-address {
+	font-size: 14px;
+	color: #777;
+}
