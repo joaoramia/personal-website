@@ -96,6 +96,13 @@ small {
     background-size: cover;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
+    position: relative;
+}
+
+#home-text {
+	text-align: center;
+	display: table;
+    margin: 0 auto;
 }
 
 /* HEADER ----------- */
@@ -149,6 +156,12 @@ header nav ul li a {
 	.wrapper-main {
 		position: relative;
 	}
+	h1 {
+		font-size: 35px;
+	}
+	h2 {
+		font-size: 40px;
+	}
 }
 
 /* CONTACT PAGE -------- */
@@ -165,7 +178,7 @@ header nav ul li a {
 }
 
 #contato h3 {
-	padding-top: 200px;
+	padding-top: 15%;
 }
 
 #contato .make-opacity {
@@ -179,6 +192,12 @@ header nav ul li a {
 
 #contato ul {
 	text-align: center;
+}
+
+@media (max-width: 750px){
+	.slogan-text {
+		color: white;
+	}
 }
 
 /* DONUTS ------------- */
@@ -266,7 +285,6 @@ header nav ul li a {
 
 #final-page {
 	height: 100%;
-	background-color: black;
 	background-image: url('../img/final-image.jpg');
 	background-position-x: center;
     background-position-y: center;
@@ -278,22 +296,35 @@ header nav ul li a {
 #final-page .make-opacity {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.7);
+	/*position: relative;*/
+}
+
+#bottom-right-final {
+	/*position: absolute;*/
+	padding-top: 35%;
+	bottom: 0;
+	right: 0;
 }
 
 #final-page h4 {
 	color: #FEB914;
-/*	float: right;
-	padding-top:450px;
-	margin-right: 40px;*/
+	vertical-align:middle;
+    display:table-cell;
 }
 
 #final-page .final-text {
 	float: right;
-	padding-top:450px;
+	display:table;
 	margin-right: 40px;
 }
 
 #final-page .final-address {
 	font-size: 14px;
 	color: #777;
+}
+
+@media (max-width: 750){
+	#bottom-right-final {
+		padding-top: 50%;
+	}
 }
