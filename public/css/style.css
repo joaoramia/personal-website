@@ -7,7 +7,7 @@ html {
 body {
  	background-color: #fff;
 	color: #777;
-	font-family: Museo-700;
+	font-family: monospace;
 	height: 100%;
 }
 
@@ -90,7 +90,7 @@ small {
 
 #home {
 	height: 100%;
-	background-image: url('../img/helmet.jpg');
+	background-image: url('../img/front-page.jpg');
 	background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
@@ -103,24 +103,24 @@ small {
 	text-align: center;
 	display: table;
     margin: 0 auto;
+    margin-top: 60px;
+}
+
+#home .make-opacity {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
 }
 
 /* HEADER ----------- */
 
 header {
 	height: 190px;
-	background-color: rgb(76, 68, 66, 0.5);
-
 }
 
-header h1 {
+header a {
 	float: left;
 	margin-top: 32px;
 	margin-left: 32px;
-}
-
-header h1 .color {
-	color: #02b8dd;
 }
 
 header nav {
@@ -131,7 +131,7 @@ header nav {
 header nav ul li {
 	float: left;
 	display: inline-block;
-	margin-top: 90px;
+	margin-top: 26px;
 }
 
 header nav ul li a {
@@ -166,7 +166,7 @@ header nav ul li a {
 
 /* CONTACT PAGE -------- */
 
-#contato {
+#contact {
 	height: 100%;
 	background-color: black;
 	background-image: url('../img/kids.jpg');
@@ -177,20 +177,20 @@ header nav ul li a {
     background-repeat-y: no-repeat;
 }
 
-#contato h3 {
+#contact h3 {
 	padding-top: 15%;
 }
 
-#contato .make-opacity {
+#contact .make-opacity {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.7);
 }
 
-#contato ul li {
+#contact ul li {
 	display: inline-block;
 }
 
-#contato ul {
+#contact ul {
 	text-align: center;
 }
 
@@ -200,51 +200,51 @@ header nav ul li a {
 	}
 }
 
-/* DONUTS ------------- */
+/* PORTFOLIO ------------- */
 
-#donuts ul {
+#portfolio ul {
 	width: 100%;
 	height:100%;
 	text-align: center;
 	color: white;
 }
 
-#donuts ul li {
+#portfolio ul li {
 	width: 33.33%;
 	height: 180px;
 	padding-top: 140px;
 	float: left;
 }
 
-#donuts ul li h4 {
+#portfolio ul li h4 {
 	color: white;
 }
 
-#donuts ul li.donut-1 {
-	background: url('../img/donuts1.jpg');
+#portfolio ul li.portfolio-1 {
+	background: url('../img/regimechange.png');
 	background-position-x: center;
     background-position-y: center;
     background-size: cover;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
-#donuts ul li.donut-2 {
-	background: url('../img/donuts2.jpg');
+#portfolio ul li.portfolio-2 {
+	background: url('../img/mdf3.png');
+	background-position-x: left;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#portfolio ul li.portfolio-3 {
+	background: url('../img/portfolio3.jpg');
 	background-position-x: center;
     background-position-y: center;
     background-size: cover;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
-#donuts ul li.donut-3 {
-	background: url('../img/donuts3.jpg');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-#donuts ul li.donut-4 {
+#portfolio ul li.portfolio-4 {
 	background: url('../img/consumer.jpg');
 	background-position-x: center;
     background-position-y: center;
@@ -252,7 +252,7 @@ header nav ul li a {
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
-#donuts ul li.donut-5 {
+#portfolio ul li.portfolio-5 {
 	background: url('../img/coffee.jpg');
 	background-position-x: center;
     background-position-y: center;
@@ -260,7 +260,7 @@ header nav ul li a {
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
-#donuts ul li.donut-6 {
+#portfolio ul li.portfolio-6 {
 	background: url('../img/butantan.jpg');
 	background-position-x: center;
     background-position-y: center;
@@ -270,13 +270,13 @@ header nav ul li a {
 }
 
 @media (max-width: 800px){
-	#donuts ul li{
+	#portfolio ul li{
 		clear: left;
 		width: 100%;
 		/*margin: 10px 0;*/
 	}
 
-	#donuts ul{
+	#portfolio ul{
 		display: table;
 	}
 }
