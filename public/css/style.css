@@ -164,43 +164,9 @@ header nav ul li a {
 	}
 }
 
-/* CONTACT PAGE -------- */
-
-#contact {
-	height: 100%;
-	background-color: black;
-	background-image: url('../img/kids.jpg');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-
-#contact h3 {
-	padding-top: 15%;
-}
-
-#contact .make-opacity {
-	height: 100%;
-	background: rgba(0, 0, 0, 0.7);
-}
-
-#contact ul li {
-	display: inline-block;
-}
-
-#contact ul {
-	text-align: center;
-}
-
-@media (max-width: 750px){
-	.slogan-text {
-		color: white;
-	}
-}
 
 /* PORTFOLIO ------------- */
+
 
 #portfolio ul {
 	width: 100%;
@@ -237,10 +203,11 @@ header nav ul li a {
     background-repeat-y: no-repeat;
 }
 #portfolio ul li.portfolio-3 {
-	background: url('../img/portfolio3.jpg');
+	background: black;
+	background-image: url('../img/github1.png');
 	background-position-x: center;
     background-position-y: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
@@ -269,6 +236,11 @@ header nav ul li a {
     background-repeat-y: no-repeat;
 }
 
+#portfolio ul {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 800px){
 	#portfolio ul li{
 		clear: left;
@@ -278,6 +250,42 @@ header nav ul li a {
 
 	#portfolio ul{
 		display: table;
+	}
+}
+
+/* CONTACT PAGE -------- */
+
+#contact {
+	height: 100%;
+	background-color: black;
+	background-image: url('../img/kids.jpg');
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+#contact h3 {
+	padding-top: 15%;
+}
+
+#contact .make-opacity {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul {
+	text-align: center;
+}
+
+@media (max-width: 750px){
+	.slogan-text {
+		color: white;
 	}
 }
 
