@@ -164,29 +164,7 @@ header nav ul li a {
 	}
 }
 
-
-/* PORTFOLIO ------------- */
-
-
-#resume-download {
-	height: 100%;
-	background-color: black;
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-
-#resume-download .resume-text {
-	text-align: center;
-	display: table;
-    margin: 0 auto;
-    padding-top: 20%;
-    color: white;
-}
-
-/* CONTACT PAGE -------- */
+/* PORTFOLIO PAGE -------- */
 
 #portfolio {
 	height: 100%;
@@ -246,6 +224,32 @@ header nav ul li a {
 	}
 	#portfolio .get-grey {
 		font-size: 10px;
+	}
+}
+
+/* RESUME PAGE ------------- */
+
+#resume-download {
+	height: 100%;
+	background-color: black;
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+#resume-download .resume-text {
+	text-align: center;
+	display: table;
+    margin: 0 auto;
+    padding-top: 20%;
+    color: white;
+}
+
+@media (max-width: 750px){
+	.resume-text a {
+		color: #FEB914;
 	}
 }
 
