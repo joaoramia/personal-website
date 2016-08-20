@@ -23,9 +23,17 @@ $(document).ready(function(){
   });
 
   $("#slogan-text").typed({
-    strings: ["Software developer^300.", "Studied full stack web development. ^1000With JavaScript", "at Fullstack Academy of Code (NYC)", "I got my inspiration to follow a coding carreer at BYU (Utah)", "After taking programming classes with C++"],
+    strings: ["Software developer^300.", "Studied full stack web development. ^1000With JavaScript", "at Fullstack Academy of Code (NYC)", "I got my inspiration to follow a coding career at BYU (Utah)", "After taking programming classes with C++"],
     typeSpeed: 0,
     backDelay: 3000,
+    showCursor: true,
+    cursorChar: "|",
+    loop: true
+  });
+  $("#resume").typed({
+    strings: ["Get to know me better"],
+    typeSpeed: 0,
+    backDelay: 2000,
     showCursor: true,
     cursorChar: "|",
     loop: true

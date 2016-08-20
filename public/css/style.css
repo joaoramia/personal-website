@@ -168,97 +168,30 @@ header nav ul li a {
 /* PORTFOLIO ------------- */
 
 
-#portfolio ul {
-	width: 100%;
-	height:100%;
-	text-align: center;
-	color: white;
-}
-
-#portfolio ul li {
-	width: 33.33%;
-	height: 180px;
-	padding-top: 140px;
-	float: left;
-}
-
-#portfolio ul li h4 {
-	color: white;
-}
-
-#portfolio ul li.portfolio-1 {
-	background: url('../img/regimechange.png');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-#portfolio ul li.portfolio-2 {
-	background: url('../img/mdf3.png');
-	background-position-x: left;
-    background-position-y: top;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-#portfolio ul li.portfolio-3 {
-	background: black;
-	background-image: url('../img/github1.png');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: contain;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-#portfolio ul li.portfolio-4 {
-	background: url('../img/consumer.jpg');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-#portfolio ul li.portfolio-5 {
-	background: url('../img/coffee.jpg');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-#portfolio ul li.portfolio-6 {
-	background: url('../img/butantan.jpg');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-
-#portfolio ul {
+#resume-download {
 	height: 100%;
-	background: rgba(0, 0, 0, 0.3);
+	background-color: black;
+	background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
 }
 
-@media (max-width: 800px){
-	#portfolio ul li{
-		clear: left;
-		width: 100%;
-		/*margin: 10px 0;*/
-	}
-
-	#portfolio ul{
-		display: table;
-	}
+#resume-download .resume-text {
+	text-align: center;
+	display: table;
+    margin: 0 auto;
+    padding-top: 20%;
+    color: white;
 }
 
 /* CONTACT PAGE -------- */
 
-#contact {
+#portfolio {
 	height: 100%;
 	background-color: black;
-	background-image: url('../img/kids.jpg');
+	background-image: url('../img/pi2.gif');
 	background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -266,26 +199,53 @@ header nav ul li a {
     background-repeat-y: no-repeat;
 }
 
-#contact h3 {
-	padding-top: 15%;
+#portfolio h3 {
+	padding-top: 10%;
 }
 
-#contact .make-opacity {
+#portfolio a {
+	color: white;
+}
+
+#portfolio .get-grey {
+	color: #808080;
+	font-size: 20px;
+}
+
+#portfolio a:hover {
+	color: #FEB914;
+}
+
+#portfolio .portfolio-text {
+	line-height: 1.6;
+	padding-left: 2%;
+	padding-right: 3%;
+}
+
+#portfolio p {
+	color: #cccccc;
+	font-size: 15px;
+}
+
+#portfolio .make-opacity {
 	height: 100%;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.9);
 }
 
-#contact ul li {
+#portfolio ul li {
 	display: inline-block;
 }
 
-#contact ul {
+#portfolio ul {
 	text-align: center;
 }
 
 @media (max-width: 750px){
-	.slogan-text {
-		color: white;
+	#portfolio p {
+		font-size: 10px;
+	}
+	#portfolio .get-grey {
+		font-size: 10px;
 	}
 }
 
