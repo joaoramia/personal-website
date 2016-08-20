@@ -249,54 +249,6 @@ header nav ul li a {
 	}
 }
 
-/* FINAL PAGE -------- */
-
-#final-page {
-	height: 100%;
-	background-image: url('../img/final-image.jpg');
-	background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-}
-
-#final-page .make-opacity {
-	height: 100%;
-	background: rgba(0, 0, 0, 0.7);
-	/*position: relative;*/
-}
-
-#bottom-right-final {
-	/*position: absolute;*/
-	padding-top: 35%;
-	bottom: 0;
-	right: 0;
-}
-
-#final-page h4 {
-	color: #FEB914;
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#final-page .final-text {
-	float: right;
-	display:table;
-	margin-right: 40px;
-}
-
-#final-page .final-address {
-	font-size: 14px;
-	color: #777;
-}
-
-@media (max-width: 750){
-	#bottom-right-final {
-		padding-top: 50%;
-	}
-}
-
 /* FOR TYPED.js FUNCTIONALITY -------- */
 
 
